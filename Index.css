@@ -1,0 +1,134 @@
+body {
+    background: white;
+    padding: 0%;
+    margin: 0%;
+
+
+
+
+}
+
+header {
+
+    border-bottom: 0px;
+    background-image: url(bilder/music-3507317_1920.jpg);
+    background-size: cover;
+    opacity: 0.6;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+nav {
+
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(047, 079, 079);
+    position: sticky;
+    z-index: 20;
+    top: 0;
+}
+
+section {
+
+    background-image: url(Bilder/string-555070_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    border: solid black 1px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+   
+    height: 600px;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+footer {
+    border: solid black 1px;
+    background-color: rgb(047, 079, 079);
+    height: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    
+
+}
+
+footer a {
+    color:white; font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+#bilder {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 250;
+}
+
+
+#inhalt {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+    margin-top: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+div a:hover {
+    border-bottom: solid rgb(238, 059, 059) 1px;
+}
+
+nav a:hover {
+    color: rgb(238, 059, 059);
+    border-left: rgb(238, 059, 059) solid 1px;
+    border-right: rgb(238, 059, 059) solid 1px;
+}
+footer a:hover{ color: rgb(238, 059, 059);
+    border-left: rgb(238, 059, 059) solid 1px;
+    border-right: rgb(238, 059, 059) solid 1px;}
+
+h1 {
+    font-size: 50px;
+    color: rgb(238, 059, 059);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+   
+    height: 50px;
+    margin-bottom: 100px;
+}
